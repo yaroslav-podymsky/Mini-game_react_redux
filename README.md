@@ -1,6 +1,7 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped ![mini-game-prev](https://user-images.githubusercontent.com/83554194/224540126-e126f9c6-0fac-4066-81f0-8739cc705200.png)
+with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
