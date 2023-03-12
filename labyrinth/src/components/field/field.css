@@ -1,0 +1,23 @@
+.field {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  position: relative;
+  margin-bottom: 4vw;
+}
+
+.field_left_sign {
+  position: absolute;
+  left: -5vw;
+  color: rgb(4, 91, 44);
+  font-size: 1vw;
+  font-weight: bold;
+}
+.field_bottom_sign {
+  color: rgba(10, 1, 112, 0.687);
+  font-size: 1vw;
+  font-weight: bold;
+  position: absolute;
+  bottom: -5vw;
+  display: flex;
+}

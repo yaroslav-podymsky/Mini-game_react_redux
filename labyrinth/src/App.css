@@ -1,0 +1,34 @@
+.app {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+  height: 100vh;
+  padding: 10vw;
+  background-color: #78e5e951;
+}
+.app_title {
+  margin: 0 auto;
+  margin-bottom: 1vw;
+  font-family: monospace;
+  font-size: 6vw;
+  font-weight: bold;
+  background: radial-gradient(#01037b 1%, #01037b54 110%);
+  background-size: 3px 3px;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation-name: title;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  background-size: 200%;
+}
+
+@keyframes title {
+  0% {
+    background-position: -50%;
+  }
+
+  100% {
+    background-position: 150%;
+  }
+}

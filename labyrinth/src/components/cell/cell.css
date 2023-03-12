@@ -1,0 +1,31 @@
+.cell {
+  width: 4vw;
+  height: 4vw;
+  background-color: #b6e2fe;
+  border-radius: 6px;
+  margin-right: 0.2vw;
+  margin-bottom: 0.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.cell:hover {
+  background-color: rgb(124, 167, 248);
+}
+.cell:active {
+  background-color: rgb(69, 126, 233);
+}
+.cell_start {
+  text-transform: uppercase;
+  color: rgb(234, 255, 1);
+  font-size: 1.1vw;
+  font-weight: bold;
+}
+.cell_finish {
+  text-transform: uppercase;
+  color: rgb(230, 0, 0);
+  font-size: 1.1vw;
+  font-weight: bold;
+}

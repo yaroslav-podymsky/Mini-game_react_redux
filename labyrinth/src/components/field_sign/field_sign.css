@@ -1,0 +1,9 @@
+.field_sign {
+  width: 4vw;
+  height: 4vw;
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0.4vw;
+}

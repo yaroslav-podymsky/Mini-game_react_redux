@@ -1,0 +1,8 @@
+.path_drawing {
+  display: flex;
+  margin: 1vw auto;
+  height: 1vw;
+}
+.path_drawing_element:not(:last-child) {
+  margin-right: 4vw;
+}
